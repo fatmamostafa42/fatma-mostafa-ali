@@ -18,7 +18,7 @@ const projects = [
   {
     title: "E-Commerce Application",
     description:
-      "A feature-rich e-commerce platform with product listings, shopping cart, and checkout functionality. Implements state management with Redux and integrates with external APIs.",
+      "A feature-rich e-commerce platform with product listings, shopping cart, and checkout functionality. Implements state management and integrates with external APIs.",
     technologies: ["React", "Redux", "REST API", "CSS"],
     type: "Personal Project",
     github: "https://github.com/fatmamostafa42/React.js-project.git",

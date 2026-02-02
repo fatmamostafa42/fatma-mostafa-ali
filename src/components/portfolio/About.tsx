@@ -35,7 +35,7 @@ export function About() {
             {/* Text Content */}
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed">
-              I'm a passionate <span className="text-primary font-medium">Junior Front-End Developer</span> with an Accounting background from Ain Shams University, combining analytical thinking with creativity. My journey into tech grew from curiosity into a drive to design intuitive, engaging, and user-focused digital experiences.
+              I'm a passionate <span className="text-primary font-medium">Junior Front-End Developer</span> with an Accounting background, combining analytical thinking with creativity. My journey into tech grew from curiosity into a drive to design intuitive, engaging, and user-focused digital experiences.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
