@@ -14,21 +14,21 @@ const skillCategories = [
   {
     title: "Languages",
     icon: Code,
-    skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript"],
+    skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript","Java"],
     color: "text-primary",
     bgColor: "bg-primary/10",
   },
   {
     title: "Frameworks & Libraries",
     icon: Layout,
-    skills: ["React.js", "Tailwind CSS", "Bootstrap", "Redux"],
+    skills: ["React.js", "Tailwind CSS", "Bootstrap", "Redux", "Selenium", "TestNG","Cucumber"],
     color: "text-accent",
     bgColor: "bg-accent/10",
   },
   {
     title: "Tools & Platforms",
     icon: Wrench,
-    skills: ["Git", "GitHub", "VS Code", "Postman", "Figma"],
+    skills: ["Git", "GitHub", "VS Code", "Postman", "Figma", "IntelliJ IDEA","JIRA", "TestRail"],
     color: "text-primary",
     bgColor: "bg-primary/10",
   },
@@ -60,7 +60,7 @@ export function Skills() {
             </h2>
             <div className="w-20 h-1 gradient-bg rounded-full mx-auto mb-4" />
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              A comprehensive toolkit for building modern web applications
+              A comprehensive toolkit for building & test modern web applications
             </p>
           </div>
 

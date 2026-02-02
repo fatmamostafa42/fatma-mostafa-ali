@@ -36,7 +36,7 @@ export function Header() {
             href="#home"
             className="font-display text-xl font-bold text-foreground hover:text-primary transition-colors"
           >
-            Fatma<span className="text-primary">.</span>
+            <span className="text-primary"></span>
           </a>
 
           {/* Desktop Navigation */}

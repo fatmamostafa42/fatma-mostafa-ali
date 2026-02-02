@@ -6,14 +6,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "fatmamostafaalii@gmail.com",
-    href: "mailto:fatmamostafaalii@gmail.com",
+    value: "fatmamostafaali2015@gmail.com",
+    href: "mailto:fatmamostafaali2015@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+20 1278 564 206",
-    href: "tel:+201278564206",
+    value: "+20 1002345343",
+    href: "tel:+201002345343",
   },
   {
     icon: MapPin,

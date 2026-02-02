@@ -15,35 +15,31 @@ export function About() {
 
           {/* Content */}
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Photo Placeholder */}
-            <div className="relative">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary to-accent p-1">
-                <div className="w-full h-full rounded-2xl bg-card flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-muted flex items-center justify-center">
-                      <span className="text-4xl font-display font-bold text-primary">FM</span>
-                    </div>
-                    <p className="text-sm text-muted-foreground">Add your photo here</p>
-                  </div>
-                </div>
-              </div>
-              {/* Decorative elements */}
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-2xl -z-10" />
-              <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary/20 rounded-2xl -z-10" />
-            </div>
+          {/* Photo */}
+<div className="relative">
+  <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary to-accent p-1">
+    <div className="w-full h-full rounded-2xl overflow-hidden bg-card">
+      <img
+        src="/images/Fatma.jpg"
+        alt="Fatma Mostafa Ali"
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+
+  {/* Decorative elements */}
+  <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-2xl -z-10" />
+  <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary/20 rounded-2xl -z-10" />
+</div>
 
             {/* Text Content */}
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed">
-                I'm a passionate <span className="text-primary font-medium">Junior Front-End Developer</span> with 
-                a Bachelor's degree in Accounting from Ain Shams University. My journey into tech began with a 
-                deep curiosity for creating beautiful, functional web experiences.
+              I'm a passionate <span className="text-primary font-medium">Junior Front-End Developer</span> with an Accounting background from Ain Shams University, combining analytical thinking with creativity. My journey into tech grew from curiosity into a drive to design intuitive, engaging, and user-focused digital experiences.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                I specialize in building responsive, user-centric applications using <span className="text-primary font-medium">React.js</span>, 
-                JavaScript, and modern CSS frameworks. I'm committed to writing clean, maintainable code 
-                and continuously learning new technologies.
+               I build responsive, user-centered applications using <span className="text-primary font-medium">React.js</span>, JavaScript, and modern CSS. With a development and testing mindset.
               </p>
 
               {/* Highlights */}
@@ -54,7 +50,7 @@ export function About() {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Education</h4>
-                    <p className="text-sm text-muted-foreground">B.Sc. Accounting - Ain Shams University (2022)</p>
+                    <p className="text-sm text-muted-foreground">B.Sc. Accounting - Helwan University (2002)</p>
                   </div>
                 </div>
 
@@ -64,7 +60,10 @@ export function About() {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Training</h4>
-                    <p className="text-sm text-muted-foreground">Information Technology Institute (ITI) - Front-End Track</p>
+                    <p className="text-sm text-muted-foreground">Egyptian Council for Training & Developmen - Front-End Track</p>
+                    <p className="text-sm text-muted-foreground pt-2">
+  Digital Egypt Pioneers Initiative (DEPI) - Software Testing (Manual & Automation) Trainee
+</p>
                   </div>
                 </div>
 

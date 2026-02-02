@@ -33,7 +33,7 @@ export function Hero() {
             className="text-xl sm:text-2xl md:text-3xl font-display gradient-text font-semibold mb-6 animate-fade-in"
             style={{ animationDelay: "0.3s" }}
           >
-            Junior Front-End Developer
+            Junior Front-End Developer<br></br> & Software Tester Trainee 
           </h2>
 
           {/* Tagline */}
@@ -41,8 +41,7 @@ export function Hero() {
             className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto mb-8 animate-fade-in"
             style={{ animationDelay: "0.4s" }}
           >
-            Building clean, user-centric web experiences with React.js, JavaScript, and modern web technologies. 
-            Passionate about responsive design and creating seamless digital experiences.
+           Passionate about creating clean, responsive web experiences while maintaining high software quality standards. I combine front-end development skills with a tester’s mindset, allowing me to build applications that are not only visually engaging but also reliable, functional, and user-focused.
           </p>
 
           {/* CTA Buttons */}
@@ -64,7 +63,7 @@ export function Hero() {
             style={{ animationDelay: "0.6s" }}
           >
             <a
-              href="https://github.com/FatmaMostafaAli"
+              href="https://github.com/fatmamostafa42"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card shadow-card hover:shadow-elevated hover:-translate-y-1 transition-all text-muted-foreground hover:text-primary"

@@ -9,7 +9,7 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/FatmaMostafaAli", label: "GitHub" },
+  { icon: Github, href: "https://github.com/fatmamostafa42", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/fatma-mostafa-ali", label: "LinkedIn" },
   { icon: Mail, href: "mailto:fatmamostafaalii@gmail.com", label: "Email" },
 ];
@@ -21,19 +21,16 @@ export function Footer() {
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-4 gap-18 mb-8">
             {/* Brand */}
             <div>
               <a
                 href="#home"
                 className="font-display text-2xl font-bold mb-4 inline-block"
               >
-                Fatma<span className="text-accent">.</span>
+                <span className="text-accent"></span>
               </a>
-              <p className="text-background/70 text-sm">
-                Junior Front-End Developer passionate about creating beautiful, 
-                functional web experiences.
-              </p>
+             
             </div>
 
             {/* Quick Links */}
