@@ -50,7 +50,7 @@ export function About() {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Education</h4>
-                    <p className="text-sm text-muted-foreground">B.Sc. Accounting - Helwan University (2002)</p>
+                    <p className="text-sm text-muted-foreground">B.Sc. Accounting - Helwan University</p>
                   </div>
                 </div>
 
